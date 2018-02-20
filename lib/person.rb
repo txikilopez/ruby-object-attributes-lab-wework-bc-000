@@ -14,12 +14,4 @@ class Person
   def job
     @job
   end
-
 end
-
-pablo = Person.new
-pablo.name = "PAblo"
-pablo.job = "Engineer"
-
-puts(pablo.name)
-puts(pablo.job)
