@@ -1,13 +1,13 @@
 class Dog
-  def Breed=(type)
+  def breed=(type)
     @breed = type
   end
   
-  def Breed
+  def breed
     @breed
   end
   
-  def Name=(get_name)
+  def name=(get_name)
     @name = get_name
   end
 end
