@@ -16,3 +16,7 @@ class Person
   end
 
 end
+
+pablo = Person.new
+pablo.name = "PAblo"
+pablo.job = "Engineer"
