@@ -1,14 +1,18 @@
 class Person
-  def Breed=(type)
-    @breed = type
+  def name=(type)
+    @name = type
   end
   
-  def Breed
-    @breed
+  def name
+    @name
   end
   
-  def Name=(get_name)
-    @name = get_name
+  def job=(get_job)
+    @job = get_job
   end
-  
+
+  def job
+    @job
+  end
+
 end
